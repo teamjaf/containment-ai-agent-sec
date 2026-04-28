@@ -179,7 +179,20 @@ qwen2.5:3b-instruct, seed 42, limit 40, shortened history:
   validator mean overhead: 0.020 ms
 ```
 
-The validator code path works and is fast. The successful 3B run used `OLLAMA_PROMPT_HISTORY_CHARS=1200` to keep local prompts short enough for laptop execution. Multi-seed 3B runs are still needed before treating this as final paper evidence.
+Multi-seed 3B confirmation, limit 40:
+
+```text
+seed 42:  clean=1.000, poison_corr=1.000, fix_corr=0.000
+seed 7:   clean=0.750, poison_corr=1.000, fix_corr=0.000
+seed 123: clean=0.975, poison_corr=1.000, fix_corr=0.000
+```
+
+Aggregate files:
+
+- `results/phase3_multiseed_qwen2.5_3b_summary.csv`
+- `results/phase3_multiseed_qwen2.5_3b_summary.json`
+
+The validator code path works and is fast. The successful 3B runs used `OLLAMA_PROMPT_HISTORY_CHARS=1200` to keep local prompts short enough for laptop execution. Seed 7 has a weak clean baseline, so final reporting should either use a stronger backend or report this as local-model variability.
 
 ## Planned Commands
 
