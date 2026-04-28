@@ -1,0 +1,45 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local notebooks and editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Generated experiment outputs
+results/*.csv
+results/*.json
+results/*.jsonl
+results/*.log
+results/tables/*.tex
+results/tables/*.csv
+results/figures/*.png
+results/figures/*.pdf
+
+# Keep scaffold placeholders if added later
+!results/.gitkeep
+!results/figures/.gitkeep
+
+# Local agent scratch/metadata
+dump/
+.claude/

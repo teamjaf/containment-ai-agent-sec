@@ -1,0 +1,2002 @@
+[
+  {
+    "name": "Ivan Nasser",
+    "income": 58229,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0001"
+  },
+  {
+    "name": "Maya Singh",
+    "income": 26344,
+    "household_size": 1,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0002"
+  },
+  {
+    "name": "Elena Singh",
+    "income": 34064,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0003"
+  },
+  {
+    "name": "Jonas Singh",
+    "income": 90119,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0004"
+  },
+  {
+    "name": "Jonas Nasser",
+    "income": 73349,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0005"
+  },
+  {
+    "name": "Jonas Wilson",
+    "income": 14538,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0006"
+  },
+  {
+    "name": "Noor Miller",
+    "income": 36478,
+    "household_size": 7,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0007"
+  },
+  {
+    "name": "Fatima Haddad",
+    "income": 20703,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0008"
+  },
+  {
+    "name": "Carlos Garcia",
+    "income": 24608,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0009"
+  },
+  {
+    "name": "Leila Lopez",
+    "income": 34739,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0010"
+  },
+  {
+    "name": "Carlos Hossain",
+    "income": 25185,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0011"
+  },
+  {
+    "name": "Leila Garcia",
+    "income": 13029,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0012"
+  },
+  {
+    "name": "Maria Rahman",
+    "income": 27017,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0013"
+  },
+  {
+    "name": "Daniel Patel",
+    "income": 26982,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0014"
+  },
+  {
+    "name": "Amina Garcia",
+    "income": 36692,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0015"
+  },
+  {
+    "name": "Sara Miller",
+    "income": 26270,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0016"
+  },
+  {
+    "name": "Jonas Khan",
+    "income": 36288,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0017"
+  },
+  {
+    "name": "Priya Lopez",
+    "income": 29954,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0018"
+  },
+  {
+    "name": "Noor Garcia",
+    "income": 16534,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0019"
+  },
+  {
+    "name": "Carlos Ali",
+    "income": 15090,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0020"
+  },
+  {
+    "name": "Hassan Miller",
+    "income": 71952,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0021"
+  },
+  {
+    "name": "Ivan Patel",
+    "income": 16971,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0022"
+  },
+  {
+    "name": "Priya Garcia",
+    "income": 19628,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0023"
+  },
+  {
+    "name": "Omar Lopez",
+    "income": 13921,
+    "household_size": 4,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0024"
+  },
+  {
+    "name": "Samira Chen",
+    "income": 37562,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0025"
+  },
+  {
+    "name": "Leila Lopez",
+    "income": 46098,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0026"
+  },
+  {
+    "name": "Samira Rahman",
+    "income": 34880,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0027"
+  },
+  {
+    "name": "Omar Patel",
+    "income": 46588,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0028"
+  },
+  {
+    "name": "Daniel Haddad",
+    "income": 36411,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0029"
+  },
+  {
+    "name": "Maya Rahman",
+    "income": 70630,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0030"
+  },
+  {
+    "name": "Fatima Nasser",
+    "income": 38287,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0031"
+  },
+  {
+    "name": "Amina Lopez",
+    "income": 27629,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0032"
+  },
+  {
+    "name": "Yusuf Rahman",
+    "income": 15665,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0033"
+  },
+  {
+    "name": "Omar Singh",
+    "income": 30978,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0034"
+  },
+  {
+    "name": "Omar Chen",
+    "income": 25541,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0035"
+  },
+  {
+    "name": "Ravi Rahman",
+    "income": 82607,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0036"
+  },
+  {
+    "name": "Maria Haddad",
+    "income": 21125,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0037"
+  },
+  {
+    "name": "Samira Wilson",
+    "income": 46108,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0038"
+  },
+  {
+    "name": "Mei Khan",
+    "income": 24742,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0039"
+  },
+  {
+    "name": "Nadia Garcia",
+    "income": 31498,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0040"
+  },
+  {
+    "name": "Leila Haddad",
+    "income": 12775,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0041"
+  },
+  {
+    "name": "Sara Ibrahim",
+    "income": 20228,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0042"
+  },
+  {
+    "name": "Ravi Rahman",
+    "income": 22929,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0043"
+  },
+  {
+    "name": "Noor Singh",
+    "income": 33711,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0044"
+  },
+  {
+    "name": "Priya Chen",
+    "income": 34668,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0045"
+  },
+  {
+    "name": "Ravi Hossain",
+    "income": 13873,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0046"
+  },
+  {
+    "name": "Yusuf Haddad",
+    "income": 39352,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0047"
+  },
+  {
+    "name": "Jonas Ibrahim",
+    "income": 85857,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0048"
+  },
+  {
+    "name": "Leila Hossain",
+    "income": 37176,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0049"
+  },
+  {
+    "name": "Elena Wilson",
+    "income": 15965,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0050"
+  },
+  {
+    "name": "Jonas Garcia",
+    "income": 31960,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0051"
+  },
+  {
+    "name": "Noor Ibrahim",
+    "income": 80364,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0052"
+  },
+  {
+    "name": "Yusuf Garcia",
+    "income": 26923,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0053"
+  },
+  {
+    "name": "Hassan Chen",
+    "income": 31782,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0054"
+  },
+  {
+    "name": "Amina Ahmed",
+    "income": 37507,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0055"
+  },
+  {
+    "name": "Yusuf Rahman",
+    "income": 57887,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0056"
+  },
+  {
+    "name": "Mei Hossain",
+    "income": 13647,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0057"
+  },
+  {
+    "name": "Noor Rahman",
+    "income": 34291,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0058"
+  },
+  {
+    "name": "Yusuf Ahmed",
+    "income": 55633,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0059"
+  },
+  {
+    "name": "Jonas Chen",
+    "income": 33020,
+    "household_size": 7,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0060"
+  },
+  {
+    "name": "Noor Miller",
+    "income": 37185,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0061"
+  },
+  {
+    "name": "Mei Rahman",
+    "income": 22593,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0062"
+  },
+  {
+    "name": "Daniel Ali",
+    "income": 37018,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0063"
+  },
+  {
+    "name": "Elena Miller",
+    "income": 36634,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0064"
+  },
+  {
+    "name": "Leila Singh",
+    "income": 38379,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0065"
+  },
+  {
+    "name": "Omar Brown",
+    "income": 35702,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0066"
+  },
+  {
+    "name": "Priya Haddad",
+    "income": 13898,
+    "household_size": 4,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0067"
+  },
+  {
+    "name": "Noor Nasser",
+    "income": 30379,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0068"
+  },
+  {
+    "name": "Fatima Miller",
+    "income": 69807,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0069"
+  },
+  {
+    "name": "Mei Miller",
+    "income": 26857,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0070"
+  },
+  {
+    "name": "Fatima Hossain",
+    "income": 62803,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0071"
+  },
+  {
+    "name": "Leila Rahman",
+    "income": 30390,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0072"
+  },
+  {
+    "name": "Samira Nasser",
+    "income": 45582,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0073"
+  },
+  {
+    "name": "Maya Miller",
+    "income": 23152,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0074"
+  },
+  {
+    "name": "Noor Nasser",
+    "income": 19223,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0075"
+  },
+  {
+    "name": "Mei Garcia",
+    "income": 30089,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0076"
+  },
+  {
+    "name": "Amina Brown",
+    "income": 20102,
+    "household_size": 1,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0077"
+  },
+  {
+    "name": "Mei Hossain",
+    "income": 21129,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0078"
+  },
+  {
+    "name": "Ivan Hossain",
+    "income": 18967,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0079"
+  },
+  {
+    "name": "Carlos Lopez",
+    "income": 23861,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0080"
+  },
+  {
+    "name": "Samira Garcia",
+    "income": 20273,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0081"
+  },
+  {
+    "name": "Ravi Patel",
+    "income": 20988,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0082"
+  },
+  {
+    "name": "Daniel Ibrahim",
+    "income": 14978,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0083"
+  },
+  {
+    "name": "Fatima Khan",
+    "income": 12940,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0084"
+  },
+  {
+    "name": "Samira Singh",
+    "income": 33369,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0085"
+  },
+  {
+    "name": "Carlos Hossain",
+    "income": 20544,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0086"
+  },
+  {
+    "name": "Ivan Miller",
+    "income": 38523,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0087"
+  },
+  {
+    "name": "Yusuf Patel",
+    "income": 15849,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0088"
+  },
+  {
+    "name": "Yusuf Wilson",
+    "income": 80804,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0089"
+  },
+  {
+    "name": "Nadia Hossain",
+    "income": 33958,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0090"
+  },
+  {
+    "name": "Samira Patel",
+    "income": 26246,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0091"
+  },
+  {
+    "name": "Amina Garcia",
+    "income": 35194,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0092"
+  },
+  {
+    "name": "Yusuf Ahmed",
+    "income": 12414,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0093"
+  },
+  {
+    "name": "Noor Garcia",
+    "income": 31349,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0094"
+  },
+  {
+    "name": "Ivan Patel",
+    "income": 78996,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0095"
+  },
+  {
+    "name": "Omar Hossain",
+    "income": 18671,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0096"
+  },
+  {
+    "name": "Leila Miller",
+    "income": 23005,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0097"
+  },
+  {
+    "name": "Hassan Ali",
+    "income": 34349,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0098"
+  },
+  {
+    "name": "Maya Nasser",
+    "income": 18940,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0099"
+  },
+  {
+    "name": "Yusuf Patel",
+    "income": 66977,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0100"
+  },
+  {
+    "name": "Noor Haddad",
+    "income": 25930,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0101"
+  },
+  {
+    "name": "Samira Brown",
+    "income": 32560,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0102"
+  },
+  {
+    "name": "Maya Chen",
+    "income": 30918,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0103"
+  },
+  {
+    "name": "Sara Lopez",
+    "income": 31867,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0104"
+  },
+  {
+    "name": "Ivan Haddad",
+    "income": 31282,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0105"
+  },
+  {
+    "name": "Maria Nasser",
+    "income": 24911,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0106"
+  },
+  {
+    "name": "Jonas Haddad",
+    "income": 57754,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0107"
+  },
+  {
+    "name": "Jonas Ali",
+    "income": 85048,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0108"
+  },
+  {
+    "name": "Maria Miller",
+    "income": 18245,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0109"
+  },
+  {
+    "name": "Leila Rahman",
+    "income": 12847,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0110"
+  },
+  {
+    "name": "Ivan Ibrahim",
+    "income": 19962,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0111"
+  },
+  {
+    "name": "Daniel Lopez",
+    "income": 69935,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0112"
+  },
+  {
+    "name": "Yusuf Ahmed",
+    "income": 85705,
+    "household_size": 2,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0113"
+  },
+  {
+    "name": "Fatima Wilson",
+    "income": 25624,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0114"
+  },
+  {
+    "name": "Yusuf Wilson",
+    "income": 37005,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0115"
+  },
+  {
+    "name": "Carlos Chen",
+    "income": 25879,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0116"
+  },
+  {
+    "name": "Elena Miller",
+    "income": 30480,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0117"
+  },
+  {
+    "name": "Hassan Nasser",
+    "income": 38090,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0118"
+  },
+  {
+    "name": "Yusuf Brown",
+    "income": 18222,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0119"
+  },
+  {
+    "name": "Leila Wilson",
+    "income": 21139,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0120"
+  },
+  {
+    "name": "Yusuf Lopez",
+    "income": 19994,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0121"
+  },
+  {
+    "name": "Elena Rahman",
+    "income": 33164,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0122"
+  },
+  {
+    "name": "Ivan Ali",
+    "income": 35538,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0123"
+  },
+  {
+    "name": "Nadia Nasser",
+    "income": 12812,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0124"
+  },
+  {
+    "name": "Omar Miller",
+    "income": 13454,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0125"
+  },
+  {
+    "name": "Leila Haddad",
+    "income": 16572,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0126"
+  },
+  {
+    "name": "Fatima Miller",
+    "income": 68313,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0127"
+  },
+  {
+    "name": "Leila Khan",
+    "income": 81289,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0128"
+  },
+  {
+    "name": "Maria Hossain",
+    "income": 32419,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0129"
+  },
+  {
+    "name": "Nadia Nasser",
+    "income": 27913,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0130"
+  },
+  {
+    "name": "Samira Patel",
+    "income": 28617,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0131"
+  },
+  {
+    "name": "Maria Khan",
+    "income": 51391,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0132"
+  },
+  {
+    "name": "Leila Ibrahim",
+    "income": 76384,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0133"
+  },
+  {
+    "name": "Maya Hossain",
+    "income": 15060,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0134"
+  },
+  {
+    "name": "Elena Garcia",
+    "income": 35165,
+    "household_size": 2,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0135"
+  },
+  {
+    "name": "Priya Ahmed",
+    "income": 46678,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0136"
+  },
+  {
+    "name": "Elena Brown",
+    "income": 68411,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0137"
+  },
+  {
+    "name": "Noor Khan",
+    "income": 20685,
+    "household_size": 7,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0138"
+  },
+  {
+    "name": "Maria Brown",
+    "income": 16207,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0139"
+  },
+  {
+    "name": "Omar Patel",
+    "income": 25074,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0140"
+  },
+  {
+    "name": "Priya Wilson",
+    "income": 75993,
+    "household_size": 2,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0141"
+  },
+  {
+    "name": "Elena Singh",
+    "income": 30265,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0142"
+  },
+  {
+    "name": "Maria Wilson",
+    "income": 38477,
+    "household_size": 7,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0143"
+  },
+  {
+    "name": "Sara Khan",
+    "income": 28635,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0144"
+  },
+  {
+    "name": "Mei Hossain",
+    "income": 12904,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0145"
+  },
+  {
+    "name": "Samira Garcia",
+    "income": 34643,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0146"
+  },
+  {
+    "name": "Maria Nasser",
+    "income": 39176,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0147"
+  },
+  {
+    "name": "Leila Lopez",
+    "income": 15928,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0148"
+  },
+  {
+    "name": "Maria Singh",
+    "income": 33668,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0149"
+  },
+  {
+    "name": "Maria Haddad",
+    "income": 24108,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0150"
+  },
+  {
+    "name": "Maya Ahmed",
+    "income": 22006,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0151"
+  },
+  {
+    "name": "Nadia Nasser",
+    "income": 23149,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0152"
+  },
+  {
+    "name": "Noor Wilson",
+    "income": 83100,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0153"
+  },
+  {
+    "name": "Ivan Garcia",
+    "income": 14806,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0154"
+  },
+  {
+    "name": "Hassan Hossain",
+    "income": 26299,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0155"
+  },
+  {
+    "name": "Elena Khan",
+    "income": 48893,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0156"
+  },
+  {
+    "name": "Hassan Wilson",
+    "income": 25942,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0157"
+  },
+  {
+    "name": "Jonas Khan",
+    "income": 31024,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0158"
+  },
+  {
+    "name": "Mei Miller",
+    "income": 14168,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0159"
+  },
+  {
+    "name": "Ravi Lopez",
+    "income": 35862,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0160"
+  },
+  {
+    "name": "Nadia Singh",
+    "income": 28640,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0161"
+  },
+  {
+    "name": "Hassan Haddad",
+    "income": 12635,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0162"
+  },
+  {
+    "name": "Noor Wilson",
+    "income": 16593,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0163"
+  },
+  {
+    "name": "Nadia Chen",
+    "income": 23641,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0164"
+  },
+  {
+    "name": "Fatima Hossain",
+    "income": 53871,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0165"
+  },
+  {
+    "name": "Nadia Haddad",
+    "income": 33640,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0166"
+  },
+  {
+    "name": "Maya Nasser",
+    "income": 39216,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0167"
+  },
+  {
+    "name": "Ivan Hossain",
+    "income": 27236,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0168"
+  },
+  {
+    "name": "Maria Ibrahim",
+    "income": 56532,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0169"
+  },
+  {
+    "name": "Priya Nasser",
+    "income": 69524,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0170"
+  },
+  {
+    "name": "Maria Singh",
+    "income": 66260,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0171"
+  },
+  {
+    "name": "Samira Wilson",
+    "income": 16369,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0172"
+  },
+  {
+    "name": "Maria Hossain",
+    "income": 83353,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0173"
+  },
+  {
+    "name": "Nadia Ali",
+    "income": 88685,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0174"
+  },
+  {
+    "name": "Mei Miller",
+    "income": 32971,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0175"
+  },
+  {
+    "name": "Noor Nasser",
+    "income": 22182,
+    "household_size": 1,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0176"
+  },
+  {
+    "name": "Carlos Brown",
+    "income": 19757,
+    "household_size": 4,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0177"
+  },
+  {
+    "name": "Ivan Miller",
+    "income": 27232,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0178"
+  },
+  {
+    "name": "Jonas Nasser",
+    "income": 36943,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0179"
+  },
+  {
+    "name": "Priya Ahmed",
+    "income": 16400,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0180"
+  },
+  {
+    "name": "Mei Rahman",
+    "income": 24793,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0181"
+  },
+  {
+    "name": "Noor Brown",
+    "income": 18286,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0182"
+  },
+  {
+    "name": "Noor Haddad",
+    "income": 17354,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0183"
+  },
+  {
+    "name": "Nadia Rahman",
+    "income": 31626,
+    "household_size": 5,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0184"
+  },
+  {
+    "name": "Priya Ahmed",
+    "income": 37486,
+    "household_size": 1,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0185"
+  },
+  {
+    "name": "Jonas Khan",
+    "income": 37800,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0186"
+  },
+  {
+    "name": "Elena Rahman",
+    "income": 35661,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0187"
+  },
+  {
+    "name": "Sara Ali",
+    "income": 76424,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0188"
+  },
+  {
+    "name": "Ravi Rahman",
+    "income": 15070,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0189"
+  },
+  {
+    "name": "Nadia Patel",
+    "income": 14339,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0190"
+  },
+  {
+    "name": "Leila Khan",
+    "income": 38349,
+    "household_size": 7,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0191"
+  },
+  {
+    "name": "Fatima Ahmed",
+    "income": 15953,
+    "household_size": 1,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0192"
+  },
+  {
+    "name": "Ravi Ahmed",
+    "income": 31548,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0193"
+  },
+  {
+    "name": "Mei Wilson",
+    "income": 16681,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0194"
+  },
+  {
+    "name": "Nadia Wilson",
+    "income": 39320,
+    "household_size": 7,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0195"
+  },
+  {
+    "name": "Yusuf Haddad",
+    "income": 29636,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0196"
+  },
+  {
+    "name": "Priya Haddad",
+    "income": 38429,
+    "household_size": 4,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0197"
+  },
+  {
+    "name": "Maya Wilson",
+    "income": 29338,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0198"
+  },
+  {
+    "name": "Samira Garcia",
+    "income": 24449,
+    "household_size": 3,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0199"
+  },
+  {
+    "name": "Nadia Garcia",
+    "income": 21299,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0200"
+  },
+  {
+    "name": "Maria Ibrahim",
+    "income": 32800,
+    "household_size": 2,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0201"
+  },
+  {
+    "name": "Nadia Ahmed",
+    "income": 90259,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0202"
+  },
+  {
+    "name": "Maria Haddad",
+    "income": 24997,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0203"
+  },
+  {
+    "name": "Elena Ibrahim",
+    "income": 12087,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0204"
+  },
+  {
+    "name": "Ivan Brown",
+    "income": 26083,
+    "household_size": 4,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0205"
+  },
+  {
+    "name": "Mei Hossain",
+    "income": 77345,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0206"
+  },
+  {
+    "name": "Mei Khan",
+    "income": 32169,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0207"
+  },
+  {
+    "name": "Sara Chen",
+    "income": 71015,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0208"
+  },
+  {
+    "name": "Ivan Ahmed",
+    "income": 14400,
+    "household_size": 7,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0209"
+  },
+  {
+    "name": "Ravi Wilson",
+    "income": 29571,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0210"
+  },
+  {
+    "name": "Mei Singh",
+    "income": 27423,
+    "household_size": 4,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0211"
+  },
+  {
+    "name": "Noor Brown",
+    "income": 40927,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0212"
+  },
+  {
+    "name": "Samira Haddad",
+    "income": 18278,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0213"
+  },
+  {
+    "name": "Ravi Patel",
+    "income": 23948,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0214"
+  },
+  {
+    "name": "Omar Garcia",
+    "income": 25594,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0215"
+  },
+  {
+    "name": "Nadia Miller",
+    "income": 27159,
+    "household_size": 4,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0216"
+  },
+  {
+    "name": "Leila Garcia",
+    "income": 61122,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0217"
+  },
+  {
+    "name": "Leila Garcia",
+    "income": 23078,
+    "household_size": 3,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0218"
+  },
+  {
+    "name": "Omar Miller",
+    "income": 16340,
+    "household_size": 5,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0219"
+  },
+  {
+    "name": "Amina Ali",
+    "income": 23934,
+    "household_size": 6,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0220"
+  },
+  {
+    "name": "Noor Singh",
+    "income": 39348,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0221"
+  },
+  {
+    "name": "Elena Khan",
+    "income": 36368,
+    "household_size": 6,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0222"
+  },
+  {
+    "name": "Jonas Patel",
+    "income": 19090,
+    "household_size": 2,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0223"
+  },
+  {
+    "name": "Jonas Ibrahim",
+    "income": 32537,
+    "household_size": 4,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0224"
+  },
+  {
+    "name": "Priya Rahman",
+    "income": 33884,
+    "household_size": 7,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0225"
+  },
+  {
+    "name": "Daniel Miller",
+    "income": 21232,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0226"
+  },
+  {
+    "name": "Priya Patel",
+    "income": 18887,
+    "household_size": 6,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0227"
+  },
+  {
+    "name": "Sara Hossain",
+    "income": 36748,
+    "household_size": 6,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0228"
+  },
+  {
+    "name": "Sara Ahmed",
+    "income": 24622,
+    "household_size": 7,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0229"
+  },
+  {
+    "name": "Priya Ali",
+    "income": 17008,
+    "household_size": 5,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0230"
+  },
+  {
+    "name": "Elena Patel",
+    "income": 26390,
+    "household_size": 1,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0231"
+  },
+  {
+    "name": "Elena Ali",
+    "income": 28750,
+    "household_size": 6,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0232"
+  },
+  {
+    "name": "Priya Lopez",
+    "income": 77924,
+    "household_size": 1,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0233"
+  },
+  {
+    "name": "Omar Nasser",
+    "income": 24762,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0234"
+  },
+  {
+    "name": "Mei Nasser",
+    "income": 63052,
+    "household_size": 3,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0235"
+  },
+  {
+    "name": "Leila Patel",
+    "income": 59087,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0236"
+  },
+  {
+    "name": "Leila Singh",
+    "income": 32295,
+    "household_size": 3,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0237"
+  },
+  {
+    "name": "Carlos Ibrahim",
+    "income": 14805,
+    "household_size": 1,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0238"
+  },
+  {
+    "name": "Ivan Ibrahim",
+    "income": 28477,
+    "household_size": 7,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0239"
+  },
+  {
+    "name": "Samira Rahman",
+    "income": 36299,
+    "household_size": 5,
+    "region": "A",
+    "ground_truth": "approve",
+    "claim_id": "C0240"
+  },
+  {
+    "name": "Omar Miller",
+    "income": 89986,
+    "household_size": 2,
+    "region": "A",
+    "ground_truth": "deny",
+    "claim_id": "C0241"
+  },
+  {
+    "name": "Elena Patel",
+    "income": 25861,
+    "household_size": 7,
+    "region": "D",
+    "ground_truth": "approve",
+    "claim_id": "C0242"
+  },
+  {
+    "name": "Daniel Rahman",
+    "income": 13514,
+    "household_size": 4,
+    "region": "E",
+    "ground_truth": "approve",
+    "claim_id": "C0243"
+  },
+  {
+    "name": "Yusuf Ibrahim",
+    "income": 12401,
+    "household_size": 2,
+    "region": "B",
+    "ground_truth": "deny",
+    "claim_id": "C0244"
+  },
+  {
+    "name": "Omar Miller",
+    "income": 36903,
+    "household_size": 1,
+    "region": "E",
+    "ground_truth": "deny",
+    "claim_id": "C0245"
+  },
+  {
+    "name": "Samira Ahmed",
+    "income": 36327,
+    "household_size": 7,
+    "region": "C",
+    "ground_truth": "approve",
+    "claim_id": "C0246"
+  },
+  {
+    "name": "Omar Wilson",
+    "income": 23457,
+    "household_size": 5,
+    "region": "B",
+    "ground_truth": "approve",
+    "claim_id": "C0247"
+  },
+  {
+    "name": "Jonas Brown",
+    "income": 82443,
+    "household_size": 2,
+    "region": "D",
+    "ground_truth": "deny",
+    "claim_id": "C0248"
+  },
+  {
+    "name": "Nadia Singh",
+    "income": 68866,
+    "household_size": 3,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0249"
+  },
+  {
+    "name": "Nadia Patel",
+    "income": 19454,
+    "household_size": 2,
+    "region": "C",
+    "ground_truth": "deny",
+    "claim_id": "C0250"
+  }
+]

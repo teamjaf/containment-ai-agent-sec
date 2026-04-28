@@ -1,0 +1,29 @@
+# Core experiment stack
+langchain==0.2.16
+langchain-core==0.2.43
+langchain-community==0.2.17
+langchain-openai==0.1.25
+langchain-anthropic==0.1.23
+openai==1.51.0
+anthropic==0.34.2
+together==1.3.1
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# Data, metrics, and figures
+numpy==2.1.1
+pandas==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# CLI, logging, and tests
+typer==0.12.5
+rich==13.8.1
+pytest==8.3.3
+
+# OpenAI Agents SDK package name is openai-agents.
+# Pin the exact version during Phase 5 once the evaluated SDK version is frozen.
+# openai-agents==0.0.17
+
+# AutoGPT is evaluated from a pinned source commit, not as a stable PyPI package.
+# Add the exact git commit URL during Phase 5 if AutoGPT is included in final runs.
