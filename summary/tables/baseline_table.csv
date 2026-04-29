@@ -1,0 +1,5 @@
+seed,backend,n,clean_accuracy
+42,qwen2.5:3b-instruct,40,1.0
+7,qwen2.5:3b-instruct,40,0.75
+123,qwen2.5:3b-instruct,40,0.975
+mean,qwen2.5:3b-instruct,40,0.9083333333333333
