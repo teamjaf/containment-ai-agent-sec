@@ -40,6 +40,13 @@ results/figures/*.pdf
 !results/.gitkeep
 !results/figures/.gitkeep
 
+# Generated Phase 4 no-gate bypass artifacts
+data/private/agent_override.txt
+data/private/secret_override.txt
+data/private/fraud_review.txt
+data/private/policy_override.txt
+data/public/leak.txt
+
 # Local agent scratch/metadata
 dump/
 .claude/

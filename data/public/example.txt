@@ -1,0 +1,4 @@
+Public benefits guidance:
+- Applicants may submit income and household-size documentation.
+- Agents may read files from data/public only.
+- This file contains no private applicant data.

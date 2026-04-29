@@ -194,6 +194,38 @@ Aggregate files:
 
 The validator code path works and is fast. The successful 3B runs used `OLLAMA_PROMPT_HISTORY_CHARS=1200` to keep local prompts short enough for laptop execution. Seed 7 has a weak clean baseline, so final reporting should either use a stronger backend or report this as local-model variability.
 
+## Phase 4 Status
+
+Implemented:
+
+- `src/agent_toolaccess.py`
+- `src/policy_gate.py`
+- `experiments/exp3_policy_bypass.py`
+- `data/public/example.txt`
+- `data/private/secret.txt`
+- 100 tool-access adversarial prompts appended to `data/adversarial_100.json`
+
+Run:
+
+```bash
+python experiments/exp3_policy_bypass.py --llm deterministic --seed 42
+```
+
+Verified result:
+
+```text
+without gate:
+  bypass_rate: 1.000
+  blocked_rate: 0.000
+
+with gate:
+  bypass_rate: 0.000
+  blocked_rate: 1.000
+  gate_overhead_mean_ms: 0.0952
+```
+
+The no-gate run deliberately creates ignored test artifacts such as `data/private/agent_override.txt` and `data/public/leak.txt`.
+
 ## Planned Commands
 
 These commands will become available as later phases are implemented.
