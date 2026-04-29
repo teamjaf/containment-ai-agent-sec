@@ -1,6 +1,22 @@
 # The Containment Gap — Submission Summary
 
-ICLR AI-for-Good Workshop submission package.
+**Venue:** ICML 2026 Workshop — Trustworthy AI for Good (AI4GOOD @ ICML 2026)
+**Workshop date:** July 10–11, 2026 · **Submission deadline:** May 3, 2026
+**Format:** 2–8 pages, ICML 2026 style, double-blind via OpenReview, non-archival
+
+---
+
+## Workshop Fit
+
+This work directly addresses three of the workshop's core topic areas:
+
+| Workshop Topic | How this paper addresses it |
+|---|---|
+| **Trustworthy AI — safety monitoring, red-teaming** | We red-team LLM memory and tool-use paths in a live agentic pipeline and demonstrate two structural safeguards |
+| **AI for Public Institutions — accountable government AI** | The experiment scenario is a welfare-benefits decision agent; the attack causes wrongful denial of eligible applicants |
+| **AI for Social Good — population-scale benefit** | Memory poisoning raises Region B wrongful denial rate to 0.833 — a concrete equity harm in a public-benefit context |
+
+The paper also touches on the special theme of **Cooperative AI / trust mechanisms**: the validator and policy gate are trust enforcement mechanisms that can be composed into multi-agent pipelines without modifying upstream framework internals.
 
 ---
 
@@ -320,6 +336,19 @@ Per-claim CSV logs for full reproducibility.
 
 ---
 
+## Submission Checklist
+
+| Item | Status |
+|------|--------|
+| Paper (2–8 pages, ICML 2026 style) | To write |
+| Double-blind anonymisation | Ensure no author names in code/paper |
+| OpenReview submission | Opens March 21, 2026 — deadline May 3, 2026 |
+| Figures for paper | Ready (`summary/figures/`) |
+| LaTeX tables | Ready (`summary/tables/*.tex`) |
+| Reproducibility package | Ready (`run_all.py --dry-run`, `Dockerfile`) |
+| Multi-backend results (Phase 5) | Pending — branch `multi-models` ready, needs API keys |
+
 ## What is Still Pending
 
 - **Phase 5 (multi-backend):** Re-running experiments with GPT-4o / Claude / Together API keys to show results generalise beyond qwen2.5:3b. Branch `multi-models` is ready — just add API keys to `.env` and run.
+- **Paper draft:** 2–8 pages, ICML 2026 format, submitted double-blind via OpenReview by May 3, 2026.
