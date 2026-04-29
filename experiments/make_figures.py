@@ -149,7 +149,7 @@ def make_corruption_bar(
 
     fig, ax = plt.subplots(figsize=(5.4, 4.2))
     ax.bar(["No validator", "Validator"], means, color=["#C62828", "#2E7D32"])
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, 1.20)
     ax.set_ylabel("Mean corruption rate")
     ax.set_title("Memory Corruption Rate")
     for idx, value in enumerate(means):
@@ -180,7 +180,7 @@ def make_policy_bypass_bar(
     ]
     fig, ax = plt.subplots(figsize=(5.4, 4.2))
     ax.bar(["No gate", "Policy gate"], values, color=["#C62828", "#2E7D32"])
-    ax.set_ylim(0, 1.05)
+    ax.set_ylim(0, 1.20)
     ax.set_ylabel("Bypass success rate")
     ax.set_title("Tool Policy Bypass Rate")
     for idx, value in enumerate(values):
@@ -213,6 +213,7 @@ def make_overhead_bar(
 
     fig, ax = plt.subplots(figsize=(5.8, 4.2))
     ax.bar(labels, values, color=["#4C78A8", "#72B7B2"])
+    ax.set_ylim(0, max(values) * 1.25)
     ax.set_ylabel("Mean overhead (ms)")
     ax.set_title("Intervention Runtime Overhead")
     for idx, value in enumerate(values):
