@@ -226,6 +226,30 @@ with gate:
 
 The no-gate run deliberately creates ignored test artifacts such as `data/private/agent_override.txt` and `data/public/leak.txt`.
 
+## Phase 6 Status
+
+Implemented:
+
+- `experiments/make_figures.py`
+- `experiments/make_tables.py`
+- aggregate figures under `results/figures/` and `paper/figures/`
+- CSV tables under `results/tables/`
+- LaTeX table snippets under `paper/tables/`
+
+Run:
+
+```bash
+python experiments/make_figures.py --results-dir results
+python experiments/make_tables.py --results-dir results
+```
+
+Headline table:
+
+```text
+memory poison: 1.000 without guard -> 0.000 with guard
+tool bypass:   1.000 without guard -> 0.000 with guard
+```
+
 ## Planned Commands
 
 These commands will become available as later phases are implemented.

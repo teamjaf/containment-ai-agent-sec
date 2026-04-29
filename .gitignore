@@ -16,6 +16,11 @@ __pycache__/
 venv/
 env/
 
+
+
+paper/
+
+
 # Build and packaging artifacts
 build/
 dist/
