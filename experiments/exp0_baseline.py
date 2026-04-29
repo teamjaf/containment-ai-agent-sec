@@ -120,7 +120,18 @@ def main() -> None:
         action="store_true",
         help="Fail instead of falling back when a requested real LLM is unavailable.",
     )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Use deterministic local settings for a fast API-free smoke test.",
+    )
     args = parser.parse_args()
+
+    if args.dry_run:
+        args.llm = "rule"
+        args.strict_llm = False
+        if args.limit is None:
+            args.limit = 20
 
     claims_path = Path(args.claims)
     if not claims_path.exists():

@@ -26,7 +26,17 @@ def load_json(path: Path) -> dict[str, Any]:
 def load_phase3(results_dir: Path) -> list[dict[str, str]]:
     """Load the canonical Phase 3 multi-seed rows."""
 
-    return read_csv_dicts(results_dir / "phase3_multiseed_qwen2.5_3b_summary.csv")
+    path = results_dir / "phase3_multiseed_qwen2.5_3b_summary.csv"
+    if not path.exists():
+        candidates = sorted(
+            results_dir.glob("phase3_multiseed_*_summary.csv"),
+            key=lambda p: p.stat().st_mtime,
+            reverse=True,
+        )
+        if not candidates:
+            raise FileNotFoundError(f"Missing {path}; run Phase 3 aggregate first")
+        path = candidates[0]
+    return read_csv_dicts(path)
 
 
 def load_latest_policy_summary(results_dir: Path) -> dict[str, Any]:

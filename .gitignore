@@ -36,10 +36,13 @@ results/*.csv
 results/*.json
 results/*.jsonl
 results/*.log
+results/dry_run/
+results/repro/
 results/tables/*.tex
 results/tables/*.csv
 results/figures/*.png
 results/figures/*.pdf
+paper/dry_run/
 
 # Keep scaffold placeholders if added later
 !results/.gitkeep

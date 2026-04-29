@@ -254,7 +254,20 @@ def main() -> None:
     parser.add_argument("--output-dir", default="results")
     parser.add_argument("--no-clean-baseline", action="store_true")
     parser.add_argument("--strict-llm", action="store_true")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Use deterministic local settings for a fast API-free smoke test.",
+    )
     args = parser.parse_args()
+
+    if args.dry_run:
+        args.llm = "rule"
+        args.strict_llm = False
+        if args.limit is None:
+            args.limit = 30
+        if args.inject_after >= args.limit:
+            args.inject_after = max(1, args.limit // 3)
 
     claims = load_claims(Path(args.claims))
     rng = random.Random(args.seed)

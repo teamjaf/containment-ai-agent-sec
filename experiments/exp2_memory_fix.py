@@ -313,7 +313,22 @@ def main() -> None:
     parser.add_argument("--strict-llm", action="store_true")
     parser.add_argument("--overhead-n", type=int, default=1000,
                         help="Number of validation calls for overhead measurement")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Use deterministic local settings for a fast API-free smoke test.",
+    )
     args = parser.parse_args()
+
+    if args.dry_run:
+        args.llm = "rule"
+        args.strict_llm = False
+        if args.limit is None:
+            args.limit = 30
+        if args.inject_after >= args.limit:
+            args.inject_after = max(1, args.limit // 3)
+        if args.overhead_n == 1000:
+            args.overhead_n = 100
 
     claims = load_claims(Path(args.claims))
     rng = random.Random(args.seed)

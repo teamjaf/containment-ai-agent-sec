@@ -92,7 +92,14 @@ def load_phase3(results_dir: Path) -> list[dict[str, str]]:
 
     path = results_dir / "phase3_multiseed_qwen2.5_3b_summary.csv"
     if not path.exists():
-        raise FileNotFoundError(f"Missing {path}; run Phase 3 aggregate first")
+        candidates = sorted(
+            results_dir.glob("phase3_multiseed_*_summary.csv"),
+            key=lambda p: p.stat().st_mtime,
+            reverse=True,
+        )
+        if not candidates:
+            raise FileNotFoundError(f"Missing {path}; run Phase 3 aggregate first")
+        path = candidates[0]
     return read_csv_dicts(path)
 
 
@@ -117,10 +124,11 @@ def phase3_tables(phase3_rows: list[dict[str, str]]) -> dict[str, list[dict[str,
     validator_rows: list[dict[str, Any]] = []
 
     for row in phase3_rows:
+        backend = row.get("llm", "unknown").replace("ollama:", "")
         baseline_rows.append(
             {
                 "seed": row["seed"],
-                "backend": "qwen2.5:3b",
+                "backend": backend,
                 "n": row["limit"],
                 "clean_accuracy": float(row["clean_accuracy"]),
             }
@@ -145,7 +153,7 @@ def phase3_tables(phase3_rows: list[dict[str, str]]) -> dict[str, list[dict[str,
     baseline_rows.append(
         {
             "seed": "mean",
-            "backend": "qwen2.5:3b",
+            "backend": phase3_rows[0].get("llm", "unknown").replace("ollama:", ""),
             "n": phase3_rows[0]["limit"],
             "clean_accuracy": mean(float(r["clean_accuracy"]) for r in phase3_rows),
         }

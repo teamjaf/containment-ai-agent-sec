@@ -147,7 +147,17 @@ def main() -> None:
     parser.add_argument("--seed", type=int, required=True)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--output-dir", default="results")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Use deterministic local settings for a fast API-free smoke test.",
+    )
     args = parser.parse_args()
+
+    if args.dry_run:
+        args.llm = "deterministic"
+        if args.limit is None:
+            args.limit = 20
 
     prompts = load_tool_prompts(Path(args.adversarial))
     rng = random.Random(args.seed)
@@ -194,4 +204,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

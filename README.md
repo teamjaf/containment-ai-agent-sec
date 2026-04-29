@@ -250,6 +250,41 @@ memory poison: 1.000 without guard -> 0.000 with guard
 tool bypass:   1.000 without guard -> 0.000 with guard
 ```
 
+## Phase 7 Status
+
+Implemented:
+
+- `run_all.py`
+- `Dockerfile`
+- `REPRODUCIBILITY.md`
+- `--dry-run` support in experiment entry points
+- run metadata capture with Python, platform, dependency, git, data, and command metadata
+
+Fast API-free reproducibility check:
+
+```bash
+python run_all.py --dry-run --seed 42
+```
+
+Verified dry-run output:
+
+```text
+baseline:       completed
+memory poison:  completed
+validator:      completed
+policy gate:    completed
+figures:        completed
+tables:         completed
+metadata:       results/dry_run/run_metadata_20260429T073006Z.json
+```
+
+Docker dry run:
+
+```bash
+docker build -t containment-gap .
+docker run --rm containment-gap
+```
+
 ## Planned Commands
 
 These commands will become available as later phases are implemented.
