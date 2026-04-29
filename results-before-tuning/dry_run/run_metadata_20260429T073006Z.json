@@ -1,0 +1,216 @@
+{
+  "args": {
+    "dry_run": true,
+    "inject_after": 10,
+    "limit": 40,
+    "llm": "ollama:qwen2.5:3b-instruct",
+    "output_dir": null,
+    "overhead_n": 1000,
+    "seed": 42
+  },
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/generate_claims.py",
+        "--seed",
+        "42",
+        "--n",
+        "250",
+        "--eligible-rate",
+        "0.60"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.084,
+      "ended_at": "2026-04-29T07:30:02.919398+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:02.835381+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/make_adversarial.py"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.08,
+      "ended_at": "2026-04-29T07:30:02.999198+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:02.919398+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/exp0_baseline.py",
+        "--seed",
+        "42",
+        "--llm",
+        "rule",
+        "--limit",
+        "20",
+        "--output-dir",
+        "results\\dry_run",
+        "--dry-run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.134,
+      "ended_at": "2026-04-29T07:30:03.133626+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:02.999198+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/exp1_memory_poison.py",
+        "--seed",
+        "42",
+        "--llm",
+        "rule",
+        "--limit",
+        "30",
+        "--inject-after",
+        "10",
+        "--output-dir",
+        "results\\dry_run",
+        "--dry-run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 1.264,
+      "ended_at": "2026-04-29T07:30:04.397808+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:03.133626+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/exp2_memory_fix.py",
+        "--seed",
+        "42",
+        "--llm",
+        "rule",
+        "--limit",
+        "30",
+        "--inject-after",
+        "10",
+        "--overhead-n",
+        "100",
+        "--output-dir",
+        "results\\dry_run",
+        "--dry-run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.645,
+      "ended_at": "2026-04-29T07:30:05.043074+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:04.397808+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/exp3_policy_bypass.py",
+        "--seed",
+        "42",
+        "--llm",
+        "deterministic",
+        "--output-dir",
+        "results\\dry_run",
+        "--dry-run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.1,
+      "ended_at": "2026-04-29T07:30:05.142893+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:05.043074+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/make_figures.py",
+        "--results-dir",
+        "results\\dry_run",
+        "--paper-dir",
+        "paper/dry_run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.789,
+      "ended_at": "2026-04-29T07:30:05.936348+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:05.147449+00:00"
+    },
+    {
+      "command": [
+        "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "experiments/make_tables.py",
+        "--results-dir",
+        "results\\dry_run",
+        "--paper-dir",
+        "paper/dry_run"
+      ],
+      "dry_run": true,
+      "duration_seconds": 0.07,
+      "ended_at": "2026-04-29T07:30:06.006530+00:00",
+      "returncode": 0,
+      "started_at": "2026-04-29T07:30:05.936348+00:00"
+    }
+  ],
+  "created_at": "2026-04-29T07:30:06.006530+00:00",
+  "data_validation": {
+    "adversarial_by_attack_type": {
+      "memory_poison_policy_update": 1,
+      "memory_poison_variant": 99,
+      "path_traversal": 50,
+      "restricted_write": 25,
+      "unauthorized_api": 25
+    },
+    "adversarial_by_phase": {
+      "memory_poison": 1,
+      "pilot_only": 99,
+      "tool_access": 100
+    },
+    "adversarial_count": 200,
+    "claims_count": 250
+  },
+  "dependencies": {
+    "anthropic": "0.43.0",
+    "langchain": "not-installed",
+    "langchain-anthropic": "not-installed",
+    "langchain-community": "not-installed",
+    "langchain-core": "not-installed",
+    "langchain-openai": "not-installed",
+    "matplotlib": "3.10.8",
+    "numpy": "2.4.3",
+    "openai": "not-installed",
+    "pandas": "2.2.3",
+    "pydantic": "2.10.4",
+    "pytest": "8.3.4",
+    "python-dotenv": "1.0.1",
+    "rich": "15.0.0",
+    "seaborn": "0.13.2",
+    "together": "not-installed",
+    "typer": "0.24.1"
+  },
+  "git_commit": null,
+  "phase3_summary": {
+    "csv": "results\\dry_run\\phase3_multiseed_dryrun_summary.csv",
+    "json": "results\\dry_run\\phase3_multiseed_dryrun_summary.json",
+    "row": {
+      "clean_accuracy": 1.0,
+      "fix_accuracy": 1.0,
+      "fix_corruption_rate": 0.0,
+      "inject_after": "10",
+      "limit": "30",
+      "llm": "rule",
+      "overhead_mean_ms": 0.0078,
+      "overhead_p95_ms": 0.0108,
+      "poison_accuracy": 1.0,
+      "poison_corruption_rate": 0.0,
+      "seed": "42",
+      "summary_file": "exp2_memory_fix_rule_seed42_20260429T073004Z.summary.json"
+    },
+    "source_summary": "results\\dry_run\\exp2_memory_fix_rule_seed42_20260429T073004Z.summary.json"
+  },
+  "python": {
+    "executable": "C:\\Users\\moham\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "version": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]"
+  }
+}

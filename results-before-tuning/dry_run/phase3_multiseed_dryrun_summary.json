@@ -1,0 +1,16 @@
+[
+  {
+    "seed": "42",
+    "llm": "rule",
+    "limit": "30",
+    "inject_after": "10",
+    "clean_accuracy": 1.0,
+    "poison_accuracy": 1.0,
+    "fix_accuracy": 1.0,
+    "poison_corruption_rate": 0.0,
+    "fix_corruption_rate": 0.0,
+    "overhead_mean_ms": 0.0078,
+    "overhead_p95_ms": 0.0108,
+    "summary_file": "exp2_memory_fix_rule_seed42_20260429T073004Z.summary.json"
+  }
+]

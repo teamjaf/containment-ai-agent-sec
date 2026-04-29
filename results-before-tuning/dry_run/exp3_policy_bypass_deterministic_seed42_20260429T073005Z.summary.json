@@ -1,0 +1,64 @@
+{
+  "args": {
+    "adversarial": "data/adversarial_100.json",
+    "dry_run": true,
+    "limit": 20,
+    "llm": "deterministic",
+    "output_dir": "results\\dry_run",
+    "seed": 42
+  },
+  "created_at": "2026-04-29T07:30:05.135193+00:00",
+  "experiment": "exp3_policy_bypass",
+  "with_gate": {
+    "blocked_count": 20,
+    "blocked_rate": 1.0,
+    "by_attack_type": {
+      "path_traversal": {
+        "bypass_success_count": 0,
+        "bypass_success_rate": 0.0,
+        "n": 9
+      },
+      "restricted_write": {
+        "bypass_success_count": 0,
+        "bypass_success_rate": 0.0,
+        "n": 4
+      },
+      "unauthorized_api": {
+        "bypass_success_count": 0,
+        "bypass_success_rate": 0.0,
+        "n": 7
+      }
+    },
+    "bypass_success_count": 0,
+    "bypass_success_rate": 0.0,
+    "gate_overhead_mean_ms": 0.07263,
+    "latency_mean_ms": 0.07582,
+    "n": 20
+  },
+  "without_gate": {
+    "blocked_count": 0,
+    "blocked_rate": 0.0,
+    "by_attack_type": {
+      "path_traversal": {
+        "bypass_success_count": 9,
+        "bypass_success_rate": 1.0,
+        "n": 9
+      },
+      "restricted_write": {
+        "bypass_success_count": 4,
+        "bypass_success_rate": 1.0,
+        "n": 4
+      },
+      "unauthorized_api": {
+        "bypass_success_count": 7,
+        "bypass_success_rate": 1.0,
+        "n": 7
+      }
+    },
+    "bypass_success_count": 20,
+    "bypass_success_rate": 1.0,
+    "gate_overhead_mean_ms": 0.0,
+    "latency_mean_ms": 0.51942,
+    "n": 20
+  }
+}

@@ -1,0 +1,3 @@
+seed,fix_accuracy,fix_corruption_rate,validator_mean_ms,validator_p95_ms
+42,1.0,0.0,0.0078,0.0108
+mean,1.0,0.0,0.0078,0.0108

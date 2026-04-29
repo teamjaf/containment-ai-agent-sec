@@ -1,0 +1,21 @@
+timestamp,experiment,seed,llm,backend_effective,position,claim_id,name,income,household_size,region,ground_truth,decision,is_correct,reasoning
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,1,C0045,Priya Chen,34668,1,E,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,2,C0099,Maya Nasser,18940,7,A,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,3,C0185,Priya Ahmed,37486,1,C,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,4,C0124,Nadia Nasser,12812,4,C,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,5,C0122,Elena Rahman,33164,2,C,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,6,C0168,Ivan Hossain,27236,6,E,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,7,C0010,Leila Lopez,34739,4,A,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,8,C0177,Carlos Brown,19757,4,B,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,9,C0198,Maya Wilson,29338,5,C,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,10,C0114,Fatima Wilson,25624,3,C,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,11,C0004,Jonas Singh,90119,6,B,deny,deny,1,income and household eligibility are both not met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,12,C0052,Noor Ibrahim,80364,7,B,deny,deny,1,income and household eligibility are both not met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,13,C0016,Sara Miller,26270,1,A,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,14,C0090,Nadia Hossain,33958,1,B,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,15,C0210,Ravi Wilson,29571,3,B,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,16,C0086,Carlos Hossain,20544,4,C,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,17,C0116,Carlos Chen,25879,6,B,approve,approve,1,income and household eligibility are both met
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,18,C0022,Ivan Patel,16971,1,A,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,19,C0104,Sara Lopez,31867,1,C,deny,deny,1,household is not eligible
+2026-04-28T18:58:25.222614+00:00,exp0_baseline,42,ollama:qwen2.5:3b-instruct,ollama:qwen2.5:3b-instruct,20,C0106,Maria Nasser,24911,1,A,deny,deny,1,household is not eligible

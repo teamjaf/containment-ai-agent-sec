@@ -1,0 +1,4 @@
+﻿"seed","llm","limit","inject_after","clean_accuracy","poison_accuracy","fix_accuracy","poison_corruption_rate","fix_corruption_rate","overhead_mean_ms","overhead_p95_ms","summary_file"
+"42","ollama:qwen2.5:3b-instruct","40","10","1.0","0.65","1.0","1.0","0.0","0.0197","0.0241","exp2_memory_fix_ollama_qwen2.5_3b-instruct_seed42_20260428T194306Z.summary.json"
+"7","ollama:qwen2.5:3b-instruct","40","10","0.75","0.525","0.925","1.0","0.0","0.0229","0.0148","exp2_memory_fix_ollama_qwen2.5_3b-instruct_seed7_20260428T195505Z.summary.json"
+"123","ollama:qwen2.5:3b-instruct","40","10","0.975","0.5","0.975","1.0","0.0","0.0155","0.0286","exp2_memory_fix_ollama_qwen2.5_3b-instruct_seed123_20260428T195715Z.summary.json"

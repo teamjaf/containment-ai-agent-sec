@@ -11,7 +11,7 @@ python-dotenv==1.0.1
 pydantic==2.9.2
 
 # Data, metrics, and figures
-numpy==2.1.1
+numpy==2.26.4
 pandas==2.2.3
 matplotlib==3.9.2
 seaborn==0.13.2

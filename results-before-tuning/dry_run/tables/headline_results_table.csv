@@ -1,0 +1,3 @@
+result,without_guard,with_guard
+memory poison,0.0,0.0
+tool bypass,1.0,0.0
